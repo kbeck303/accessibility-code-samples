@@ -1,0 +1,8 @@
+# Build files
+node_modules/*
+
+src/scss/libraries/bourbon/*
+src/scss/libraries/neat/*
+
+# Mac image stores
+.DS_Store

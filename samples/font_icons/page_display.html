@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="js no-touchevents">
+  <head>
+    <title>Accessibility Code Samples and Solutions</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="../../src/css/styles.css" type="text/css">
+  </head>
+  <body>
+    <header class="cc-branding">
+      <a href="../../index.html"><img class="cc-branding__logo" src="img/oomph_wordmark_red.svg" alt="" width="90"></a>
+      <h1 class="cc-branding__subtitle">Accessibility Code Samples and Solutions</h1>
+    </header>
+    <main class="cc-main">
+      <h1>Font Icons</h1>
+      <!-- CodePen Code -->
+      <p data-height="284" data-theme-id="0" data-slug-hash="OOmpOJ" data-default-tab="html" data-user="kbeck303" data-embed-version="2" data-pen-title="Font Icons: Code Samples for NEDCamp 2017" class="codepen">See the Pen <a href="https://codepen.io/kbeck303/pen/OOmpOJ/">Font Icons: Code Samples for NEDCamp 2017</a> by kbeck303 (<a href="https://codepen.io/kbeck303">@kbeck303</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+
+      <h2>Notes, Tips, and Reference Materials</h2>
+      <ol>
+        <li>If you are putting this in a block that doesn't allow full HTML, Drupal might strip out empty <code>&lt;span&gt;</code> tags, to get around this, add a <code>&amp;nbsp;</code> tag in there.</li>
+        <li><a href="https://github.com/drupal/core/blob/8.5.x/themes/classy/templates/navigation/menu.html.twig" alt="This link opens in a new window." target="_blank">Twig menu file for the classy theme.</a> The menu.html.twig file controls all the menu elements. This lets you <a href="https://github.com/drupal/core/blob/8.5.x/themes/classy/templates/navigation/menu.html.twig#L29">tie into the menu_level variable</a>, which lets you give unique classes at each menu level for each menu element.</li>
+        <li>Is there a relevant Oomph blog post?</li>
+      </ol>
+      <!-- TODO: Samples of how JAWS displays/read both samples -->
+    </main>
+    <footer class="cc-foot">
+      <h2>footer info</h2>
+      <p>Some contact information?</p>
+      <ul>
+        <li><a href="../font_icons/page_display.html" alt="Go to the Font Icon page">Font Icons</a></li>
+        <li><a href="../headers/page_display.html" alt="Go to the Headers page">Headers</a></li>
+        <li><a href="../teasers/page_display.html" alt="Go to the Teasers page">Teasers</a></li>
+        <li><a href="../form_required/page_display.html" alt="Go to the Required Form Fields page">Required Form Fields</a></li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="site.js" ></script>
+  </body>
+</html>
+
+
+
+
+
