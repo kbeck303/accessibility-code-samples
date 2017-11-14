@@ -1,0 +1,13 @@
+<h2>How we <em>usually</em> markup field labels.</h2>
+<div>
+  <label for="search_2" class="a11y-text">Search:</label>
+  <input type="search" name="search" id="search_2" class="search-form__input" placeholder="search for..." />
+  <button type="submit">Search</button>
+</div>
+
+<h2>How we <em>should</em> markup field labels.</h2>
+<div role="search">
+  <label for="search_2" class="a11y-text">Enter a phrase or keyword to search the site</label>
+  <input type="search" name="search" id="search_2" class="search-form__input" placeholder="search for..." />
+  <button type="submit"><span class="a11y-text">Submit</span>Search</button>
+</div>
