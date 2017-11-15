@@ -17,7 +17,6 @@ exports.config = {
   },
   plugins: {
     babel: {
-      ignore: [/^(bower_components)/],
       pattern: /\.(js|jsx)/
     }
   },
