@@ -1,5 +1,5 @@
 # Accessibility Code Samples and Solutions
-Code samples of common site components and how to make then WCAG 2.0 compatible. There will be HTML and Drupal 8 twig template samples when available.
+Code samples of common site components and how to make them WCAG 2.0 compatible.
 
 ## Table of Contents
 * Font Icons
