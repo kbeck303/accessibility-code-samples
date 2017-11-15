@@ -2,14 +2,10 @@
 <html class="js no-touchevents">
   <head>
     <title>Accessibility Code Samples and Solutions</title>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Serif+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="../../src/css/styles.css" type="text/css">
+    <?php include '../../include_meta.php';?>
   </head>
   <body>
-    <header class="cc-branding">
-      <a href="../../index.html"><img class="cc-branding__logo" src="img/oomph_wordmark_red.svg" alt="" width="90"></a>
-      <h1 class="cc-branding__subtitle">Accessibility Code Samples and Solutions</h1>
-    </header>
+    <?php include '../../include_header.php';?>
     <main class="cc-main">
       <h1>Headers</h1>
       <!-- CodePen Code -->
@@ -24,19 +20,7 @@
       </ol>
       <!-- TODO: Samples of how JAWS displays/read both samples -->
     </main>
-    <footer class="cc-foot">
-      <h2>footer info</h2>
-      <p>Some contact information?</p>
-      <ul>
-        <li><a href="../font_icons/page_display.html" alt="Go to the Font Icon page">Font Icons</a></li>
-        <li><a href="../headers/page_display.html" alt="Go to the Headers page">Headers</a></li>
-        <li><a href="../teasers/page_display.html" alt="Go to the Teasers page">Teasers</a></li>
-        <li><a href="../form_required/page_display.html" alt="Go to the Required Form Fields page">Required Form Fields</a></li>
-        <li><a href="../form_labels/page_display.html" alt="Go to the Form Labels page">Form Labels</a></li>
-        <li><a href="../form_radio_checkboxes/page_display.html" alt="Go to the Form Radio Buttons and Checkboxes with Fieldsets and Legends page">Form Radio Buttons and Checkboxes with Fieldsets and Legends</a></li>
-      </ul>
-    </footer>
-    <script type="text/javascript" src="site.js" ></script>
+    <?php include '../../include_footer.php';?>
   </body>
 </html>
 
