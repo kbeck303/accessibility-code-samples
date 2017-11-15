@@ -23,8 +23,3 @@
     <?php include '../../include_footer.php';?>
   </body>
 </html>
-
-
-
-
-
