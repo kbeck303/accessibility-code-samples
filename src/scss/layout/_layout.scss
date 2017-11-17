@@ -1,38 +1,84 @@
 // @file layout.scss
-.cc-main {
-  padding: 1rem 2rem;
-}
 
-$gutter: 1rem;
+.presentation {
+  @include display(flex);
+  @include flex-direction(column);
+  min-height: 100vh;
 
-%container-margin {
-  margin-left: - $gutter;
-  margin-right: - $gutter;
-}
+  &__with-sidebar {
+  display: initial;
+  flex-direction: initial;
+  min-height: initial;
+  }
 
-%column-padding {
-  padding-left: $gutter;
-  padding-right: $gutter;
-}
+  // header
+  &__branding {
+    max-height: rem(80);
+  }
 
-.container {
-  @extend %container-margin;
-}
+  // container
+  &__main {
+    @include flex(1 1 auto);
+    padding: 1rem 2rem 3rem;
 
-.column {
-  @extend %column-padding;
-  padding-bottom: $vert-line-height;
-}
+    // when there is a sidebar on the page
+    &--with-sidebar {
+      @include display(flex);
+      @include flex-direction(column);
 
-@include media($small-up) {
-  
-  .layout__two-col {
-    @include display(flex);
-    @include flex-flow(row wrap);
-    @include align-items(flex-start);
-    
-    .column {
-      width: 50%;
+      @include media($medium-up) {
+        @include flex-direction(row);
+      }
     }
   }
+
+  // main
+  &__content {
+
+    @include media($medium-up) {
+      width: 70%;
+    }
+  }
+
+  // aside
+  &__sidebar {
+
+    @include media($medium-up) {
+      width: 30%;
+    }
+
+    // general image
+    &-img {
+
+      // full width container
+      &--featured {}
+
+      // full width
+      &--full {
+        display: inline-block;
+        width: 100%;
+      }
+
+      // half width container
+      &--secondary {
+        @include display(flex);
+        @include flex-direction(row);
+        @include justify-content(space-between);
+      }
+
+      // half width
+      &--half {
+        height: 100%;
+        width: 50%;
+
+        // add space between the images
+        &:first-child {
+          margin-right: rem(8);
+        }
+      }
+    }
+  }
+
+  // footer
+  &__footer {}
 }
