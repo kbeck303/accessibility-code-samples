@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php include '../../include_header.php';?>
-    <main class="cc-main">
+    <main class="presentation__main">
       <h1>Teasers</h1>
       <!-- CodePen Code -->
       <p data-height="219" data-theme-id="0" data-slug-hash="MOmvwj" data-default-tab="html" data-user="kbeck303" data-embed-version="2" data-pen-title="Teasers: Accessibility Code Samples and Solutions" class="codepen">See the Pen <a href="https://codepen.io/kbeck303/pen/MOmvwj/">Teasers: Accessibility Code Samples and Solutions</a> by kbeck303 (<a href="https://codepen.io/kbeck303">@kbeck303</a>) on <a href="https://codepen.io">CodePen</a>.</p>

@@ -1,18 +1,23 @@
 // @file header.scss
-.cc-branding {
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #ccc;
-  padding: 1rem 2rem;
-}
 
-.cc-branding__title {
-  font-size: 3rem;
-  letter-spacing: .03125em;
-}
+.presentation {
 
-.cc-branding__subtitle {}
+  // container
+  &__branding {
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 2rem;
+  }
 
-.cc-branding__logo {
-  display: inline-block;
-  vertical-align: middle;
+  // logo
+  &__logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  // title
+  &__title {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
 }

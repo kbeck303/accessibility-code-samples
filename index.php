@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php include 'include_header.php';?>
-    <main class="cc-main">
+    <main class="presentation__main">
       <h2>Index of pages</h2>
       <ul>
         <li><a href="samples/font_icons/page_display.php" alt="Go to the Font Icon page">Font Icons</a></li>

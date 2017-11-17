@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php include '../../include_header.php';?>
-    <main class="cc-main">
+    <main class="presentation__main">
       <h1>Form Radio Buttons and Checkboxes with Fieldsets and Legends</h1>
       <!-- CodePen Code -->
       <p data-height="296" data-theme-id="0" data-slug-hash="OOgzve" data-default-tab="html,result" data-user="kbeck303" data-embed-version="2" data-pen-title="Form Radio Buttons and Checkboxes with Fieldsets and Legends: Accessibility Code Samples and Solutions" class="codepen">See the Pen <a href="https://codepen.io/kbeck303/pen/OOgzve/">Form Radio Buttons and Checkboxes with Fieldsets and Legends: Accessibility Code Samples and Solutions</a> by kbeck303 (<a href="https://codepen.io/kbeck303">@kbeck303</a>) on <a href="https://codepen.io">CodePen</a>.</p>

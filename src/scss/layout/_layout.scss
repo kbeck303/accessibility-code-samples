@@ -1,38 +1,62 @@
 // @file layout.scss
-.cc-main {
-  padding: 1rem 2rem;
-}
 
-$gutter: 1rem;
+.presentation {
 
-%container-margin {
-  margin-left: - $gutter;
-  margin-right: - $gutter;
-}
-
-%column-padding {
-  padding-left: $gutter;
-  padding-right: $gutter;
-}
-
-.container {
-  @extend %container-margin;
-}
-
-.column {
-  @extend %column-padding;
-  padding-bottom: $vert-line-height;
-}
-
-@include media($small-up) {
-  
-  .layout__two-col {
+  // container
+  &__main {
     @include display(flex);
-    @include flex-flow(row wrap);
-    @include align-items(flex-start);
-    
-    .column {
-      width: 50%;
+    @include flex-direction(column);
+    padding: 1rem 2rem;
+
+    @include media($medium-up) {
+      @include flex-direction(row);
+    }
+  }
+
+  // main
+  &__content {
+
+    @include media($medium-up) {
+      width: 70%;
+    }
+  }
+
+  // aside
+  &__sidebar {
+
+    @include media($medium-up) {
+      width: 30%;
+    }
+
+    // general image
+    &-img {
+
+      // full width container
+      &--featured {}
+
+      // full width
+      &--full {
+        display: inline-block;
+        width: 100%;
+      }
+
+      // half width container
+      &--secondary {
+        @include display(flex);
+        @include flex-direction(row);
+        @include justify-content(space-between);
+        max-height: 100px;
+      }
+
+      // half width
+      &--half {
+        width: 50%;
+
+        // add space between the images
+        &:first-child {
+          margin-right: rem(8);
+        }
+      }
     }
   }
 }
