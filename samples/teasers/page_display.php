@@ -4,7 +4,7 @@
     <title>Accessibility Code Samples and Solutions</title>
     <?php include '../../include_meta.php';?>
   </head>
-  <body>
+  <body class="presentation">
     <?php include '../../include_header.php';?>
     <main class="presentation__main">
       <h1>Teasers</h1>

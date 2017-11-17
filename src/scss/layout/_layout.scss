@@ -1,9 +1,24 @@
 // @file layout.scss
 
 .presentation {
+  @include display(flex);
+  @include flex-direction(column);
+  min-height: 100vh;
+
+  &__with-sidebar {
+  display: initial;
+  flex-direction: initial;
+  min-height: initial;
+  }
+
+  // header
+  &__branding {
+    max-height: rem(80);
+  }
 
   // container
   &__main {
+    @include flex(1 1 auto);
     padding: 1rem 2rem 3rem;
 
     // when there is a sidebar on the page
@@ -63,4 +78,7 @@
       }
     }
   }
+
+  // footer
+  &__footer {}
 }

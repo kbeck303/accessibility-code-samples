@@ -4,7 +4,7 @@
     <title>Accessibility Code Samples and Solutions</title>
     <?php include '../include_meta.php';?>
   </head>
-  <body>
+  <body class="presentation presentation__with-sidebar">
     <?php include '../include_header.php';?>
     <div class="presentation__main presentation__main--with-sidebar">
       <main class="presentation__content">
@@ -21,12 +21,11 @@
       </main>
       <aside class="presentation__sidebar">
         <div class="presentation__sidebar-img--featured">
-          <img class="presentation__sidebar-img presentation__sidebar-img--full" src="/img/kbeck303.jpeg" alt="A close up photo of an Asian looking woman wearing glasses. She is wearing a green shirt and has ona  pair of headshots. She is smirking and looking at the camera.">
+          <img class="presentation__sidebar-img presentation__sidebar-img--full" src="/img/kbeck303.jpeg" alt="A close up photo of an Asian looking woman wearing glasses. She is wearing a green shirt and has on a pair of headphones. She is smirking and looking at the camera.">
         </div>
         <div class="presentation__sidebar-img--secondary">
           <div class="presentation__sidebar-img--half">
             <img class="presentation__sidebar-img"  src="/img/finn.jpg" alt="A very cross-eyed cat peaking his head out from underneath a freshly made bed.">
-
           </div>
           <div class="presentation__sidebar-img--half">
             <img class="presentation__sidebar-img"   src="/img/oomph.jpg" alt="A group of 24 Oomph employees are standing in the stairwell at the Providence Public Library.">
