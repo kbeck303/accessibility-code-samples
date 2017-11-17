@@ -6,16 +6,16 @@
   </head>
   <body>
     <?php include '../include_header.php';?>
-    <div class="presentation__main">
+    <div class="presentation__main presentation__main--with-sidebar">
       <main class="presentation__content">
         <h1>Kathy Beck</h1>
-        <p>UX Engineer at Oomph</p>
-        <p>@kbeck303 on social media</p>
+        <p class="bravo">UX Engineer at Oomph</p>
+        <p>@kbeck303 on social media <span>Drupal</span> <span>GitHub</span> <span>Instagram</span> <span>Snapchat</span> <span>Twitter</span></p>
         <ul>
           <li>I've been working at <a href="https://www.oomphinc.com/">Oomph</a> since 2014</li>
           <li>I started working in Drupal when it was at version 4.7</li>
           <li>I've been immersed in accessibility work for the past year</li>
-          <li>I have a chubby cross-eyed cat named Finn</li>
+          <li>I have a fat cross-eyed cat named Finn</li>
           <li>I love audiobooks</li>
         </ul>
       </main>

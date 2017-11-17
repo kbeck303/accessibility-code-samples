@@ -4,12 +4,16 @@
 
   // container
   &__main {
-    @include display(flex);
-    @include flex-direction(column);
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 3rem;
 
-    @include media($medium-up) {
-      @include flex-direction(row);
+    // when there is a sidebar on the page
+    &--with-sidebar {
+      @include display(flex);
+      @include flex-direction(column);
+
+      @include media($medium-up) {
+        @include flex-direction(row);
+      }
     }
   }
 
@@ -45,11 +49,11 @@
         @include display(flex);
         @include flex-direction(row);
         @include justify-content(space-between);
-        max-height: 100px;
       }
 
       // half width
       &--half {
+        height: 100%;
         width: 50%;
 
         // add space between the images

@@ -9,7 +9,7 @@
     <main class="presentation__main">
       <h1>Font Icons</h1>
       <!-- CodePen Code -->
-      <p data-height="284" data-theme-id="0" data-slug-hash="OOmpOJ" data-default-tab="html" data-user="kbeck303" data-embed-version="2" data-pen-title="Font Icons: Code Samples for NEDCamp 2017" class="codepen">See the Pen <a href="https://codepen.io/kbeck303/pen/OOmpOJ/">Font Icons: Code Samples for NEDCamp 2017</a> by kbeck303 (<a href="https://codepen.io/kbeck303">@kbeck303</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+      <p data-height="700" data-theme-id="0" data-slug-hash="OOmpOJ" data-default-tab="html,result" data-user="kbeck303" data-embed-version="2" data-pen-title="Font Icons: Accessibility Code Samples and Solutions" class="codepen">See the Pen <a href="https://codepen.io/kbeck303/pen/OOmpOJ/">Font Icons: Accessibility Code Samples and Solutions</a> by kbeck303 (<a href="https://codepen.io/kbeck303">@kbeck303</a>) on <a href="https://codepen.io">CodePen</a>.</p>
       <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
       <h2>Notes, Tips, and Reference Materials</h2>

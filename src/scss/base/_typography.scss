@@ -2,7 +2,7 @@
 
 // Copy
 $paragraph: 1em;
-$line-height: 1.75;
+$line-height: 1.4;
 
 // establishing some vertical rhythm for no type elements
 // use this on margin bottom etc.
@@ -72,6 +72,8 @@ h2,
 .bravo {
   @include one-element-size(h2);
   font-weight: $font-weight-bold;
+  text-transform: uppercase;
+  color: palette(brand);
 }
 
 h3,

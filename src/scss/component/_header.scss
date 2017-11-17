@@ -11,13 +11,22 @@
 
   // logo
   &__logo {
-    display: inline-block;
-    vertical-align: middle;
+    display: block;
+
+    // a
+    // logo container
+    &__link {
+      display: inline-block;
+      margin-right: rem(20);
+      vertical-align: middle;
+    }
   }
 
   // title
   &__title {
-    font-size: 1rem;
-    letter-spacing: 1px;
+    display: inline-block;
+    font-size: rem(18);
+    padding-bottom: rem(3);
+    vertical-align: bottom;
   }
 }
