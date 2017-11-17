@@ -6,7 +6,7 @@
   </head>
   <body class="presentation">
     <?php include '../include_header.php';?>
-    <main class="presentation__main">
+    <main class="presentation__main presentation__main--max-width">
       <h1>We're Hiring</h1>
       <p>We are located in Providence, Rhode Island.</p>
       <p>Looking for UX Engineers, Web Engineers, and Digital Project Managers</p>

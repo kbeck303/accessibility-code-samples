@@ -21,6 +21,11 @@
     @include flex(1 1 auto);
     padding: 1rem 2rem 3rem;
 
+    // set a max-width when the content doesn't need to go full width
+    &--max-width {
+      max-width: rem(1200);
+    }
+
     // when there is a sidebar on the page
     &--with-sidebar {
       @include display(flex);

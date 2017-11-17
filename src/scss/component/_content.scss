@@ -3,7 +3,9 @@
 
 	&__main {
 
-		h1 {}
+		h1 {
+			margin-bottom: 0.5em;
+		}
 
 		h2 {}
 
@@ -21,6 +23,8 @@
 		address,
 		form,
 		table {
+			line-height: 1.7;
+			font-size: rem(22);
 			margin-bottom: $vert-line-height;
 		}
 
@@ -28,20 +32,24 @@
 		ul,
 		ol {
 			margin-bottom: $vert-line-height + .125em;
+			font-size: rem(20);
+			margin-bottom: $vert-line-height;
+			margin-left: rem(25);
 
 			& ul,
 			& ol {
-				margin-left: 1.5em;
+				margin-left: 0;
 				margin-bottom: 0;
 			}
 		}
 
 		// Adjust line height to tighten multi-line LIs, and add space in between to maintain rhythm
-		ul {
+		ul,
+		ol {
 
 			li {
 				line-height: 1.5;
-				padding-bottom: .25em;
+				padding-bottom: rem(20);
 			}
 		}
 

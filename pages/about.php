@@ -10,7 +10,14 @@
       <main class="presentation__content">
         <h1>Kathy Beck</h1>
         <p class="bravo">UX Engineer at Oomph</p>
-        <p>@kbeck303 on social media <span>Drupal</span> <span>GitHub</span> <span>Instagram</span> <span>Snapchat</span> <span>Twitter</span></p>
+        <p>@kbeck303 on social media
+          <span>Drupal</span>
+          <span>GitHub</span>
+          <span>CodePen</span>
+          <span>Instagram</span>
+          <span>Snapchat</span>
+          <span>Twitter</span>
+        </p>
         <ul>
           <li>I've been working at <a href="https://www.oomphinc.com/">Oomph</a> since 2014</li>
           <li>I started working in Drupal when it was at version 4.7</li>
