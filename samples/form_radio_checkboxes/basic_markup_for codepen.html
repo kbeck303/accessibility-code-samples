@@ -1,0 +1,42 @@
+<h2>How we <em>usually</em> markup radio buttons and checkbox fields.</h2>
+<form>
+  <p class="form__label">Do you like coffee?</p>
+  <input type="radio" name="coffee" value="no"> Nope
+  <input type="radio" name="coffee" value="yes"> Yes
+  <input type="radio" name="coffee" value="love" checked> No, I LOVE it!
+</form>
+
+<form>
+  <p class="form__label">Please send me:</p>
+  <input id="snacks-pizza" name="snacks" type="checkbox" value="pizza">
+  <label for="snacks-pizza">Pizza</label>
+  <input id="snacks-cake" name="snacks" type="checkbox" value="cake">
+  <label for="snacks-cake">Cake</label>
+  <input id="snacks-ice-cream" name="snacks" type="checkbox" value="ice-cream">
+  <label for="snacks-ice-cream">Ice Cream</label>
+</form>
+
+<h2>How we <em>should</em> markup field labels.</h2>
+<fieldset>
+  <legend>Do you like coffee?</legend>
+  <div class="radio">
+    <input type="radio" name="coffee" id="no" value="no"/>
+    <label for="no">Nope</label>
+    <input type="radio" name="coffee" id="yes" value="yes"/>
+    <label for="yes">Yes</label>
+    <input type="radio" name="love" id="love" value="love" checked />
+    <label for="love">No, I LOVE it!</label>
+  </div>
+</fieldset>
+
+<fieldset>
+  <legend>Please send me</legend>
+  <div class="checkbox">
+    <input id="snacks-pizza" type="checkbox" name="snacks" value="pizza"/>
+    <label for="snacks-pizza">Pizza</label>
+    <input id="snacks-cake" type="checkbox" name="snacks" value="cake"/>
+    <label for="snacks-cake">Cake</label>
+    <input id="snacks-ice-cream" type="checkbox" name="snacks" value="ice-cream"/>
+    <label for="snacks-ice-cream">Ice Cream</label>
+  </div>
+</fieldset>

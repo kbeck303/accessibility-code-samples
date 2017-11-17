@@ -1,0 +1,51 @@
+/* ! ===== Colorcube Form element ===== */
+.cc-form {
+  
+  &__submit {
+    text-align: center;
+    padding: $vert-line-height/2 0;
+  }
+}
+
+
+/* ! ===== Results ===== */
+.results {}
+
+.color-ratios {
+  @include clearfix;
+
+  &--column {
+    float: left;
+    width: 25%
+  }
+
+  /* Individual Color Swatches */
+  &--swatch {
+    border: 2px solid black;
+    color: white;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 60px;
+    
+    &.most-legible {
+      font-weight: $font-weight-bold;
+      width: auto;
+    }
+  }
+
+  .fail {
+    background-color: red;
+  }
+  
+  .pass {
+    background-color: green;
+  }
+  
+  .edge {
+    background-color: yellow;
+    color: black;
+  }
+}

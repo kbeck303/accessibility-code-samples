@@ -1,0 +1,13 @@
+.card {
+   width: 400px;
+}
+
+// Text meant only for screen readers.
+.a11y-text {
+  // scss-lint:disable ImportantRule
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
