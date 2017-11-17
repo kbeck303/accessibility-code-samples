@@ -14,7 +14,7 @@
 
       <h2>Notes, Tips, and Reference Materials</h2>
       <ol>
-        <li>We have been using this method at Oomph for about a year and it have been helpful, especially when design requires styles that do not match the semantic header markup.</li>
+        <li>We have been using this method at Oomph for about a year and it has been helpful, especially when design requires styles that do not match the semantic header markup.</li>
         <li><a href="https://github.com/oomphinc/scss-scaffold/blob/master/base/_typography.scss#L53-L107" alt="This link opens in a new window." target="_blank">Here's a link to Oomph's SCSS Scaffold on GitHub</a> If you'd like to see how we are using it in our Scaffold.</li>
         <li>Is there a relevant Oomph blog post?</li>
       </ol>
