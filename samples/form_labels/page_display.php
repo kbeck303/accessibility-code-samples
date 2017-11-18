@@ -16,7 +16,6 @@
       <ol>
         <li>Try to be as descriptive as you can when adding text for screen readers.</li>
         <li>As an exercise, I will close my eyes and say to myself "what would I want to hear if I was trying to do X, Y, or Z".</li>
-        <li>Is there a relevant Oomph blog post?</li>
       </ol>
       <!-- TODO: Samples of how JAWS displays/read both samples -->
     </main>

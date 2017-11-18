@@ -16,7 +16,6 @@
       <ol>
         <li>If you are putting this in a block that doesn't allow full HTML, Drupal might strip out empty <code>&lt;span&gt;</code> tags. To get around this, add a <code>&amp;nbsp;</code> tag in there.</li>
         <li><a href="https://github.com/drupal/core/blob/8.5.x/themes/classy/templates/navigation/menu.html.twig" alt="This link opens in a new window." target="_blank">Twig menu file for the classy theme.</a> The menu.html.twig file controls all the menu elements. This lets you <a href="https://github.com/drupal/core/blob/8.5.x/themes/classy/templates/navigation/menu.html.twig#L29">tie into the menu_level variable</a>, which lets you give unique classes at each menu level for each menu element.</li>
-        <li>Is there a relevant Oomph blog post?</li>
       </ol>
       <!-- TODO: Samples of how JAWS displays/read both samples -->
     </main>

@@ -15,7 +15,6 @@
       <h2>Notes, Tips, and Reference Materials</h2>
       <ol>
         <li>If you want to use an *, you need to let users know what the asterisk means.</li>
-        <li>Is there a relevant Oomph blog post?</li>
       </ol>
       <!-- TODO: Samples of how JAWS displays/read both samples -->
     </main>
