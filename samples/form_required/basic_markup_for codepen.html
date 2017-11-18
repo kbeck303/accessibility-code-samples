@@ -1,15 +1,15 @@
 <h2>How we <em>usually</em> markup required fields.</h2>
-
 <p>* fields are required</p>
 <form>
-  <label for="name">Name *</label>
-  <input id="name" type="text" name="name">
+  <label for="full-name">Name *</label>
+  <input id="full-name" type="text" name="name">
   <label for="comment">Comments</label>
   <textarea id="comment" name="comment"></textarea>
   <input type="submit" value="Submit">
 </form>
 
 <h2>How we <em>should</em> markup required fields.</h2>
+<h3>No asterisk in the form</h3>
 <p>All fields except "Comments" are required.</p>
 <form>
   <label for="name" class="required-field">Name</label>
@@ -20,6 +20,7 @@
   <input type="submit" value="Submit">
 </form>
 
+<h3>With an asterisk in the form</h3>
 <p>The fields with an asterisk (*) are required.</p>
 <form>
   <label for="name" class="required-field">Name *</label>

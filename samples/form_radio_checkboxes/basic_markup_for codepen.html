@@ -1,22 +1,25 @@
 <h2>How we <em>usually</em> markup radio buttons and checkbox fields.</h2>
+<h3>Radio Buttons</h3>
 <form>
   <p class="form__label">Do you like coffee?</p>
-  <input type="radio" name="coffee" value="no"> Nope
-  <input type="radio" name="coffee" value="yes"> Yes
-  <input type="radio" name="coffee" value="love" checked> No, I LOVE it!
+  <input type="radio" name="coffee" value="no" /> Nope
+  <input type="radio" name="coffee" value="yes" /> Yes
+  <input type="radio" name="coffee" value="love" checked /> No, I LOVE it!
 </form>
 
+<h3>Checkboxes</h3>
 <form>
   <p class="form__label">Please send me:</p>
-  <input id="snacks-pizza" name="snacks" type="checkbox" value="pizza">
+  <input type="checkbox" name="snacks" id="snacks-pizza" value="pizza">
   <label for="snacks-pizza">Pizza</label>
-  <input id="snacks-cake" name="snacks" type="checkbox" value="cake">
+  <input type="checkbox" name="snacks" id="snacks-cake" value="cake">
   <label for="snacks-cake">Cake</label>
-  <input id="snacks-ice-cream" name="snacks" type="checkbox" value="ice-cream">
+  <input type="checkbox" name="snacks" id="snacks-ice-cream" value="ice-cream">
   <label for="snacks-ice-cream">Ice Cream</label>
 </form>
 
 <h2>How we <em>should</em> markup field labels.</h2>
+<h3>Radio Buttons (fixed)</h3>
 <fieldset>
   <legend>Do you like coffee?</legend>
   <div class="radio">
@@ -24,19 +27,20 @@
     <label for="no">Nope</label>
     <input type="radio" name="coffee" id="yes" value="yes"/>
     <label for="yes">Yes</label>
-    <input type="radio" name="love" id="love" value="love" checked />
+    <input type="radio" name="coffee" id="love" value="love" checked />
     <label for="love">No, I LOVE it!</label>
   </div>
 </fieldset>
 
+<h3>Checkboxes (fixed)</h3>
 <fieldset>
   <legend>Please send me</legend>
   <div class="checkbox">
-    <input id="snacks-pizza" type="checkbox" name="snacks" value="pizza"/>
+    <input type="checkbox" name="snacks" id="snacks-pizza" value="pizza">
     <label for="snacks-pizza">Pizza</label>
-    <input id="snacks-cake" type="checkbox" name="snacks" value="cake"/>
+    <input type="checkbox" name="snacks" id="snacks-cake" value="cake">
     <label for="snacks-cake">Cake</label>
-    <input id="snacks-ice-cream" type="checkbox" name="snacks" value="ice-cream"/>
+    <input type="checkbox" name="snacks" id="snacks-ice-cream" value="ice-cream">
     <label for="snacks-ice-cream">Ice Cream</label>
   </div>
 </fieldset>

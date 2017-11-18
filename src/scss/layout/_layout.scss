@@ -6,9 +6,9 @@
   min-height: 100vh;
 
   &__with-sidebar {
-  display: initial;
-  flex-direction: initial;
-  min-height: initial;
+    display: initial;
+    flex-direction: initial;
+    min-height: initial;
   }
 
   // header
@@ -20,6 +20,11 @@
   &__main {
     @include flex(1 1 auto);
     padding: 1rem 2rem 3rem;
+
+    // set a max-width when the content doesn't need to go full width
+    &--max-width {
+      max-width: rem(1200);
+    }
 
     // when there is a sidebar on the page
     &--with-sidebar {
@@ -35,8 +40,13 @@
   // main
   &__content {
 
-    @include media($medium-up) {
-      width: 70%;
+    // set the content width when there is a sidebar
+    // all other instances &__main and &--max-width control the content width
+    .presentation__main--with-sidebar & {
+
+      @include media($medium-up) {
+        width: 70%;
+      }
     }
   }
 

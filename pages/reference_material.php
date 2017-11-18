@@ -6,7 +6,7 @@
   </head>
   <body class="presentation">
     <?php include '../include_header.php';?>
-    <main class="presentation__main">
+    <main class="presentation__main presentation__main--max-width">
       <h1>Reference Material</h1>
       <ul>
         <li><a title="This link opens in a new window" target="_blank" href="http://a11y-style-guide.com/style-guide/">A11y Style Guide</a></li>
