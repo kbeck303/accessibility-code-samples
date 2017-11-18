@@ -1,62 +1,84 @@
 .presentation {
-	clear: both;
+  clear: both;
 
-	&__main {
+  &__main {
 
-		h1 {
-			margin-bottom: 0.5em;
-		}
+    h1 {
+      margin-bottom: 0.5em;
+    }
 
-		h2 {}
+    h2 {}
 
-		h3 {
-			margin-bottom: 1.125em;
-		}
+    h3 {
+      margin-bottom: 1.125em;
+    }
 
-		h4 {
-			margin-bottom: 1.375em;
-		}
+    h4 {
+      margin-bottom: 1.375em;
+    }
 
-		// Default vertical rhythm
-		p,
-		dl,
-		address,
-		form,
-		table {
-			line-height: 1.7;
-			font-size: rem(22);
-			margin-bottom: $vert-line-height;
-		}
+    // Default vertical rhythm
+    p,
+    dl,
+    address,
+    form,
+    table {
+      line-height: 1.7;
+      font-size: rem(22);
+      margin-bottom: $vert-line-height;
+    }
 
-		// Remove margin bottom when nested
-		ul,
-		ol {
-			margin-bottom: $vert-line-height + .125em;
-			font-size: rem(20);
-			margin-bottom: $vert-line-height;
-			margin-left: rem(25);
+    // Remove margin bottom when nested
+    ul,
+    ol {
+      margin-bottom: $vert-line-height + .125em;
+      font-size: rem(20);
+      margin-bottom: $vert-line-height;
+      margin-left: rem(25);
 
-			& ul,
-			& ol {
-				margin-left: 0;
-				margin-bottom: 0;
-			}
-		}
+      strong {
+        font-style: italic;
+        text-decoration: underline;
+      }
 
-		// Adjust line height to tighten multi-line LIs, and add space in between to maintain rhythm
-		ul,
-		ol {
+      & ul,
+      & ol {
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+    }
 
-			li {
-				line-height: 1.5;
-				padding-bottom: rem(20);
-			}
-		}
+    // Adjust line height to tighten multi-line LIs, and add space in between to maintain rhythm
+    ul,
+    ol {
 
-		dl {
+      li {
+        line-height: 1.5;
+        padding-bottom: rem(20);
+      }
+    }
 
-			dt,
-			dd { line-height: 1.5; }
-		}
-	}
+    dl {
+
+      dt,
+      dd { line-height: 1.5; }
+    }
+
+    // social media icons
+    .social-media {
+
+      // a
+      &__link {
+        display: inline-block;
+        padding: rem(5);
+
+        // general icon
+        &__icon {
+
+          // specifically drupal
+          &--drupal {}
+        }
+      }
+    }
+  }
 }

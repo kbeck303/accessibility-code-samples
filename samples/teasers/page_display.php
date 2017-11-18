@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="js no-touchevents">
   <head>
-    <title>Accessibility Code Samples and Solutions</title>
+    <title>Teasers | Accessibility Code Samples and Solutions</title>
     <?php include '../../include_meta.php';?>
   </head>
   <body class="presentation">
@@ -19,7 +19,6 @@
         <li>Having two links go to the same place within the same card is not ideal for screenreaders, but average web users expect the image and the link/button to bring them somewhere.</li>
         <li>Using Twig templates and views with a content display (instead of fields) lets you quickly reuse HTML markup for similar content being displaying in different areas of the site or displaying different but similar content.</li>
       </ol>
-      <!-- TODO: Samples of how JAWS displays/read both samples -->
     </main>
     <?php include '../../include_footer.php';?>
   </body>

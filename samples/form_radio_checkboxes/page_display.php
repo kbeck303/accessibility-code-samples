@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="js no-touchevents">
   <head>
-    <title>Accessibility Code Samples and Solutions</title>
+    <title>Form Radio Buttons and Checkboxes with Fieldsets and Legends | Accessibility Code Samples and Solutions</title>
     <?php include '../../include_meta.php';?>
   </head>
   <body class="presentation">
@@ -16,7 +16,6 @@
       <ol>
         <li>Once I embraced fieldsets and legends, it all made sense.</li>
       </ol>
-      <!-- TODO: Samples of how JAWS displays/read both samples -->
     </main>
     <?php include '../../include_footer.php';?>
   </body>

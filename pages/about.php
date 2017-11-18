@@ -11,12 +11,24 @@
         <h1>Kathy Beck</h1>
         <p class="bravo">UX Engineer at Oomph</p>
         <p>@kbeck303 on social media
-          <span>Drupal</span>
-          <span>GitHub</span>
-          <span>CodePen</span>
-          <span>Instagram</span>
-          <span>Snapchat</span>
-          <span>Twitter</span>
+          <a href="https://www.drupal.org/u/kbeck303" class="social-media__link" title="Visit my Drupal page. This link will open in a new window." target="_blank">
+            <span class="social-media__link__icon social-media__link__icon--drupal fa fa-drupal" aria-hidden="true"></span>
+          </a>
+          <a href="https://github.com/kbeck303" class="social-media__link" title="Visit my GitHub page. This link will open in a new window." target="_blank">
+            <span class="social-media__link__icon social-media__link__icon--github fa fa-github" aria-hidden="true"></span>
+          </a>
+          <a href="https://codepen.io/kbeck303" class="social-media__link" title="Visit my CodePen page. This link will open in a new window." target="_blank">
+            <span class="social-media__link__icon social-media__link__icon--codepen fa fa-codepen" aria-hidden="true"></span>
+          </a>
+          <a href="https://www.instagram.com/kbeck303/" class="social-media__link" title="Visit my Instagram page. This link will open in a new window." target="_blank">
+            <span class="social-media__link__icon social-media__link__icon--instagram fa fa-instagram" aria-hidden="true"></span>
+          </a>
+          <a href="#" class="social-media__link" title="This link goes nowhere because snapchat accounts aren't on the internet per say.." target="_blank">
+            <span class="social-media__link__icon social-media__link__icon--snapchat fa fa-snapchat" aria-hidden="true"></span>
+          </a>
+          <a href="https://www.twitter.com/kbeck303/" class="social-media__link" title="Visit my Twitter page. This link will open in a new window." target="_blank">
+            <span class="social-media__link__icon social-media__link__icon--twitter fa fa-twitter" aria-hidden="true"></span>
+          </a>
         </p>
         <ul>
           <li>I've been working at <a href="https://www.oomphinc.com/">Oomph</a> since 2014</li>
