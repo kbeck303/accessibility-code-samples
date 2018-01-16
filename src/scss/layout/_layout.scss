@@ -14,12 +14,14 @@
   // header
   &__branding {
     max-height: rem(80);
+    padding-left: rem(90);
   }
 
   // container
   &__main {
     @include flex(1 1 auto);
     padding: 1rem 2rem 3rem;
+    padding-left: rem(90);
 
     // set a max-width when the content doesn't need to go full width
     &--max-width {
@@ -90,5 +92,6 @@
   }
 
   // footer
-  &__footer {}
+  &__footer {
+    padding-left: rem(90);}
 }
